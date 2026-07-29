@@ -1,0 +1,15 @@
+import HautevilleHouse.ManyValuedLogicLemmaCanonicalLaneLean.ManyValuedCompleteness
+
+namespace HautevilleHouse
+namespace ManyValuedLogicLemmaCanonicalLaneLean
+
+structure ManyValuedAnalyticFoundation where
+  finiteValued : FiniteValuedPackage
+  finiteValuedEvidence : FiniteValuedEvidence finiteValued
+  lindenbaum : LindenbaumAlgebraPackage
+  lindenbaumEvidence : LindenbaumAlgebraEvidence lindenbaum
+  completeness : ManyValuedCompletenessPackage
+  completenessEvidence : ManyValuedCompletenessEvidence completeness
+
+end ManyValuedLogicLemmaCanonicalLaneLean
+end HautevilleHouse
